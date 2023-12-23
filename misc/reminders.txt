@@ -1,0 +1,6 @@
+enabled; once; repeat; icon; msg
+false; false; every(10).seconds; clock; "          Reunion detrabajo a las 19:00"
+true; false; every(1).hours; clock; "LEVANTATECAMINA Y DESCANSA 10 MIN"
+true; false; every().day.at("10:00"); fire; "          TOMA LAS PASTILLAS PERO YA..."
+true; false; every().tuesday.at("19:00"); clock; " CLASE IPP   ESTRATEGIA DE FACILITACION"
+true; false; every().thursday.at("19:00"); clock; " CLASE IPP   GESTION DE PERSONAS"
